@@ -33,4 +33,4 @@ https://archive.crowdford.com/maps/bolt/
 
 ● 1.20.1 port
 
-> Commands update | gris_kill, Luxion48
+> Commands update | gris_kill, Luxion48, Théophile Lebrat
