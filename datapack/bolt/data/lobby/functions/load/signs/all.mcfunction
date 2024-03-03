@@ -9,3 +9,11 @@ execute at @e[type=area_effect_cloud,tag=marker,tag=option,tag=option_tab_board]
 execute at @e[type=area_effect_cloud,tag=marker,tag=option,tag=option_round_time] run setblock ~ ~ ~ oak_wall_sign[facing=west]{Text1:'{"text":"Max Game Time","color":"aqua"}'} replace
 execute at @e[type=area_effect_cloud,tag=marker,tag=option,tag=option_killstreaks] run setblock ~ ~ ~ oak_wall_sign[facing=west]{Text1:'{"text":"Enable kill Streaks","color":"aqua"}',Text2:'{"text":"","color":"aqua"}'} replace
 
+execute at gris_kill run setblock ~ ~ ~ 
+data modify block 40 101 36 {front_text: {color: "black", messages: ['{"text":"test"}', '{"text":""}', '{"text":""}', '{"text":""}']}}
+
+setblock 40 101 34 minecraft:oak_wall_sign[facing=west]{front_text: {color: "black", messages: ['{"text":"test"}', '{"text":""}', '{"text":""}', '{"text":""}']}}
+
+{front_text: {color: "black", messages: ['{"text":"test"}', '{"text":""}', '{"text":""}', '{"text":""}']}} destroy
+
+/setblock 40 101 34 minecraft:oak_wall_sign[facing=west]{front_text: {color: "black", messages: ['{"text":"test"}', '{"text":""}', '{"text":""}', '{"text":""}']}} destroy
