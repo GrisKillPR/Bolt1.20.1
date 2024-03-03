@@ -30,4 +30,4 @@ setblock 11 46 0 oak_wall_sign[facing=west]{front_text: {color: "yellow", messag
 
 
 #NE PAS TOUCHER SAUF AUTORISATION DE gris_kill !!!
-setblock 11 46 0 oak_wall_sign[facing=west]{front_text: {color: "gold", messages: ['{"bold":true,"text":"Currently Selected"}', '{"bold":true,"text":"Map"}', '{"text":""}', '{"clickEvent":{"action":"run_command","value":"function lobby:signs/help/maps/check"},"color":"black","text":"[Click to cycle]"}']}} destroy
+#setblock 11 46 0 oak_wall_sign[facing=west]{front_text: {color: "gold", messages: ['{"bold":true,"text":"Currently Selected"}', '{"bold":true,"text":"Map"}', '{"text":""}', '{"clickEvent":{"action":"run_command","value":"function lobby:signs/help/maps/check"},"color":"black","text":"[Click to cycle]"}']}} destroy
