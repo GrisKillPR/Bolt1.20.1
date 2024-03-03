@@ -27,3 +27,4 @@ execute at @e[type=area_effect_cloud,tag=marker,tag=option,tag=option_killstreak
 
 #setblock 40 101 34 minecraft:oak_wall_sign[facing=west]{front_text: {color: "aqua", messages: ['{"text":"Max Game Time"}', '{"text":""}', '{"text":""}', '{"text":""}']}}
 
+#LAISSEZ LES "DESTROY" ICI Merci !!!
