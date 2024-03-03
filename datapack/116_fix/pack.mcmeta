@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 2,
+    "description": "A fixer pack to keep mc running without the default datapack"
+  }
+}
