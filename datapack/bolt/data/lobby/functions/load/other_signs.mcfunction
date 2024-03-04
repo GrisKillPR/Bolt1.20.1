@@ -8,9 +8,12 @@ setblock -3 47 -17 oak_wall_sign[facing=south]{front_text: {color: "dark_aqua", 
 #credits (in clockwise order
 # chicken > kruthers > tom
 #setblock -18 56 64 oak_wall_sign[facing=west]{Text1:'{"text":"BigNinjaChicken","color":"#ff8c1a","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/chicken"}}',Text3:'{"text":"Lead Build","color":"#4d4dff"}'} destroy
-setblock -18 56 64 oak_wall_sign[facing=west]{front_text: {color: "black", messages: ['{"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/chicken","color":"#ff8c1a","text":"BigNinjaChicken"}', '{"text":""}', '{"color":"#4d4dff","text":"Lead Build"}', '"text":""}']}}
+setblock -18 56 64 oak_wall_sign[facing=west]{front_text: {color: "black", messages: ['{"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/chicken","color":"#ff8c1a","text":"BigNinjaChicken"}', '{"text":""}', '{"color":"#4d4dff","text":"Lead Build"}', '"text":""}']}} destroy
 
-setblock -20 56 63 oak_wall_sign[facing=south]{Text1:'{"text":"kruthers","color":"#1ab2ff","bold":true,"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/kruthers"}}',Text3:'{"text":"Project Lead","color":"#6600ff"}'} destroy
+#setblock -20 56 63 oak_wall_sign[facing=south]{Text1:'{"text":"kruthers","color":"#1ab2ff","bold":true,"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/kruthers"}}',Text3:'{"text":"Project Lead","color":"#6600ff"}'} destroy
+setblock -20 56 63 oak_wall_sign[facing=south]{front_text: {color: "black", messages: ['{"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/kruthers","color":"#1ab2ff","bold":true,"text":"kruthers"}', '{"text":""}', '{"color":"#6600ff","text":"Project Lead"}', '{"text":""}']}} destroy
+
+setblock -22 56 64 oak_wall_sign[facing=east]{Text1:'{"text":"hellicar","color":"#40ff00","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/tom"}}',Text3:'{"text":"Lead Build","color":"#4d4dff"}'} destroy
 setblock -22 56 64 oak_wall_sign[facing=east]{Text1:'{"text":"hellicar","color":"#40ff00","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/tom"}}',Text3:'{"text":"Lead Build","color":"#4d4dff"}'} destroy
 
 #west - adri > dragon > Qu1nten
@@ -42,4 +45,4 @@ setblock -53 49 -27 oak_wall_sign[facing=south]{Text2:'{"text":"Tidal Wave","col
 
 #NE PAS TOUCHER SAUF AUTORISATION DE gris_kill !!!
 
-setblock 11 46 0 oak_wall_sign[facing=west]{front_text: {color: "gold", messages: ['{"bold":true,"text":"Currently Selected"}', '{"bold":true,"text":"Map"}', '{"text":""}', '{"clickEvent":{"action":"run_command","value":"function lobby:signs/help/maps/check"},"color":"black","text":"[Click to cycle]"}']}} destroy
+#setblock 11 46 0 oak_wall_sign[facing=west]{front_text: {color: "gold", messages: ['{"bold":true,"text":"Currently Selected"}', '{"bold":true,"text":"Map"}', '{"text":""}', '{"clickEvent":{"action":"run_command","value":"function lobby:signs/help/maps/check"},"color":"black","text":"[Click to cycle]"}']}} destroy
