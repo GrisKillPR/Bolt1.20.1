@@ -37,7 +37,7 @@ setblock -18 56 83 oak_wall_sign[facing=north]{front_text: {messages: ['{"text":
 fill -21 56 75 -19 57 76 air
 
 setblock -17 56 76 minecraft:piston[facing=up]
-setblock -23 57 76 minecraft:heavy_weighted_pressure_plate
+setblock -17 57 76 minecraft:heavy_weighted_pressure_plate
 setblock -18 56 76 oak_wall_sign[facing=west]{front_text: {messages: ['{"text":""}', '{"text":"Other Credits","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/special"}}', '{"text":"& Info","color":"#00ffff"}', '{"text":""}']}} destroy
 
 setblock -23 56 76 minecraft:piston[facing=up]
