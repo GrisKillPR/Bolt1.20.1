@@ -5,6 +5,6 @@ scoreboard players operation optionsCaculation cm_miscellaneous = maxGameTime gm
 scoreboard players operation optionsCaculation cm_miscellaneous /= #minute cm_miscellaneous
 
 #data merge block ~ ~ ~ {Text3:"[\"\",{\"score\":{\"name\":\"optionsCaculation\",\"objective\":\"cm_miscellaneous\"},\"color\":\"gold\"},{\"text\":\" minutes\",\"color\":\"gold\"}]",Text4:'{"text":"","clickEvent":{"action":"run_command","value":"trigger lb_optionTrig set 7"}}'}
-setblock ~ ~ ~ minecraft:oak_wall_sign[facing=west]{front_text: {color: "aqua", messages: ['{"text":"Max Game Time"}', '{"score":{"name":"optionsCaculation","objective":"cm_miscellaneous"},"color":"gold"}', '{"text":" minutes","color":"gold"}', '{"text":"","clickEvent":{"action":"run_command","value":"trigger lb_optionTrig set 7"}}']}} destroy
+setblock ~ ~ ~ minecraft:oak_wall_sign[facing=west]{front_text: {messages: ['{"color":"aqua","text":"Max Game Time"}', '{"score":{"name":"optionsCaculation","objective":"cm_miscellaneous"},"color":"gold"}', '{"text":"minutes","color":"gold"}', '{"text":"","clickEvent":{"action":"run_command","value":"trigger lb_optionTrig set 7"}}']}} destroy
 
 
