@@ -9,11 +9,11 @@ setblock -3 47 -17 oak_wall_sign[facing=south]{front_text: {messages: ['{"text":
 #credits (in clockwise order
 # chicken > kruthers > tom
 #setblock -18 56 64 oak_wall_sign[facing=west]{Text1:'{"text":"BigNinjaChicken","color":"#ff8c1a","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/chicken"}}',Text3:'{"text":"Lead Build","color":"#4d4dff"}'} destroy
-setblock -18 56 64 oak_wall_sign[facing=west]{front_text: {messages: ['{"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/chicken","color":"#ff8c1a","text":"BigNinjaChicken"}', '{"text":""}', '{"color":"#4d4dff","text":"Lead Build"}', '"text":""}']}} destroy
+setblock -18 56 64 oak_wall_sign[facing=west]{front_text: {messages: ['{"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/chicken"},"color":"#ff8c1a","text":"BigNinjaChicken"}', '{"text":""}', '{"color":"#4d4dff","text":"Lead Build"}', '"text":""}']}} destroy
 
 
 #setblock -20 56 63 oak_wall_sign[facing=south]{Text1:'{"text":"kruthers","color":"#1ab2ff","bold":true,"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/kruthers"}}',Text3:'{"text":"Project Lead","color":"#6600ff"}'} destroy
-setblock -20 56 63 oak_wall_sign[facing=south]{front_text: {messages: ['{"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/kruthers","color":"#1ab2ff","bold":true,"text":"kruthers"}', '{"text":""}', '{"color":"#6600ff","text":"Project Lead"}', '{"text":""}']}} destroy
+setblock -20 56 63 oak_wall_sign[facing=south]{front_text: {messages: ['{"clickEvent":{"action":"run_command","value":"function lobby:signs/credits/kruthers"},"color":"#1ab2ff","bold":true,"text":"kruthers"}', '{"text":""}', '{"color":"#6600ff","text":"Project Lead"}', '{"text":""}']}} destroy
 
 
 #setblock -22 56 64 oak_wall_sign[facing=east]{Text1:'{"text":"hellicar","color":"#40ff00","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/tom"}}',Text3:'{"text":"Lead Build","color":"#4d4dff"}'} destroy
@@ -42,7 +42,7 @@ setblock -18 56 76 oak_wall_sign[facing=west]{front_text: {messages: ['{"text":"
 
 setblock -23 56 76 minecraft:piston[facing=up]
 setblock -23 57 76 minecraft:light_weighted_pressure_plate
-setblock -22 56 76 oak_wall_sign[facing=north]{front_text: {messages: ['{"text":""}', '{"text":"Testers","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/testers"}}', '{"text":""}', '{"text":""}']}} destroy
+setblock -22 56 76 oak_wall_sign[facing=east]{front_text: {messages: ['{"text":""}', '{"text":"Testers","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/testers"}}', '{"text":""}', '{"text":""}']}} destroy
 
 
 
@@ -61,7 +61,6 @@ setblock -22 56 73 oak_wall_sign[facing=east]{front_text: {messages: ['{"text":"
 #setblock -21 56 75 oak_wall_sign[facing=north]{Text2:'{"text":"Testers","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/testers"}}'} destroy
 
 #setblock -19 56 75 oak_wall_sign[facing=north]{Text2:'{"text":"Other Credits","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/special"}}',Text3:'{"text":"& Info","color":"#00ffff"}'} destroy
-setblock -19 56 75 oak_wall_sign[facing=north]{front_text: {messages: ['{"text":""}', '{"text":"Other Credits","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/special"}}', '{"text":"& Info","color":"#00ffff"}', '{"text":""}']}} destroy
 
 
 #east - marhjo > Raptor
