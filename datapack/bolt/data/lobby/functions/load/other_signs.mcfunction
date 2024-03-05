@@ -3,7 +3,7 @@
 
 #random teams
 #setblock -3 47 -17 oak_wall_sign[facing=south]{Text1:'{"text":"Randomise","color":"dark_aqua","bold":true}',Text2:'{"text":"Teams","color":"dark_aqua","bold":true}',Text4:'{"text":"[click to run]","clickEvent":{"action":"run_command","value":"function lobby:random_teams"}}'}
-setblock -3 47 -17 oak_wall_sign[facing=south]{front_text: {color: "dark_aqua", messages: ['{"bold":true,"text":"Randomise"}', '{"bold":true,"text":"Teams"}', '{"text":""}', '{"clickEvent":{"action":"run_command","value":"function lobby:random_teams","color":"black","text":"[Click to run]"}']}} destroy
+setblock -3 47 -17 oak_wall_sign[facing=south]{front_text: {messages: ['{"text":"Randomise","color":"dark_aqua","bold":true}', '{"text":"Teams","color":"dark_aqua","bold":true}', '{"text":""}', '{"text":"[click to run]","clickEvent":{"action":"run_command","value":"function lobby:random_teams"}}']}} destroy
 
 
 #credits (in clockwise order
@@ -36,7 +36,7 @@ setblock -22 56 73 oak_wall_sign[facing=east]{front_text: {messages: ['{"text":"
 
 #south - testers > specail
 #setblock -21 56 75 oak_wall_sign[facing=north]{Text2:'{"text":"Testers","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/testers"}}'} destroy
-setblock -22 56 75 oak_wall_sign[facing=north]{front_text: {messages: ['{"text":""}', '{"text":"Testers","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/testers"}}', '{"text":""}', '{"text":""}']}} destroy
+setblock -21 56 75 oak_wall_sign[facing=north]{front_text: {messages: ['{"text":""}', '{"text":"Testers","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/testers"}}', '{"text":""}', '{"text":""}']}} destroy
 
 #setblock -19 56 75 oak_wall_sign[facing=north]{Text2:'{"text":"Other Credits","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/special"}}',Text3:'{"text":"& Info","color":"#00ffff"}'} destroy
 setblock -19 56 75 oak_wall_sign[facing=north]{front_text: {messages: ['{"text":""}', '{"text":"Other Credits","color":"#00ffff","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/special"}}', '{"text":"& Info","color":"#00ffff"}', '{"text":""}']}} destroy
@@ -81,7 +81,7 @@ setblock -45 49 -29 oak_wall_sign[facing=south]{front_text: {messages: ['{"text"
 setblock -49 49 -28 oak_wall_sign[facing=south]{front_text: {messages: ['{"text":""}', '{"text":"Extra Life","color":"green"}', '{"text":""}', '{"text":"[click for info]","clickEvent":{"action":"run_command","value":"function lobby:signs/help/items/extra_life"}}']}} destroy
 
 #setblock -53 49 -27 oak_wall_sign[facing=south]{Text2:'{"text":"Tidal Wave","color":"green"}',Text4:'{"text":"[click for info]","clickEvent":{"action":"run_command","value":"function lobby:signs/help/items/tidal_wave"}}'} destroy
-setblock -53 49 -27 oak_wall_sign[facing=south]{front_text: {messages: ['{"text":""}', '{"text":"Tidal Wave","color":"green"}', '{"text":""}', '{text":"[click for info]","clickEvent":{"action":"run_command","value":"function lobby:signs/help/items/tidal_wave"}}']}} destroy
+setblock -53 49 -27 oak_wall_sign[facing=south]{front_text: {messages: ['{"text":""}', '{"text":"Tidal Wave","color":"green"}', '{"text":""}', '{"text":"[click for info]","clickEvent":{"action":"run_command","value":"function lobby:signs/help/items/tidal_wave"}}']}} destroy
 
 
 #NE PAS TOUCHER SAUF AUTORISATION DE gris_kill !!!
