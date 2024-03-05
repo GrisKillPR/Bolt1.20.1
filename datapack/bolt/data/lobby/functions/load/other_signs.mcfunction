@@ -22,6 +22,10 @@ setblock -22 56 64 oak_wall_sign[facing=east]{front_text: {messages: ['{"text":"
 #setblock -22 56 64 oak_wall_sign[facing=east]{Text1:'{"text":"hellicar","color":"#40ff00","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/tom"}}',Text3:'{"text":"Lead Build","color":"#4d4dff"}'} destroy
 setblock -22 56 64 oak_wall_sign[facing=east]{front_text: {messages: ['{"text":"hellicar","color":"#40ff00","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/tom"}}', '{"text":""}', '{"text":"Lead Build","color":"#4d4dff"}', '{"text":""}']}} destroy
 
+#credit 1.20.1 port
+
+setblock -18 56 83 oak_wall_sign[facing=north]{front_text: {messages: ['{"text":"Théophile Lebrat","color":"dark_aqua","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/theophile"}}', '{"text":""}', '{"text":"Commands helper","color":"dark_red"}', '{"text":""}']}} destroy
+
 
 #west - adri > dragon > Qu1nten
 #setblock -22 56 67 oak_wall_sign[facing=east]{Text1:'{"text":"Asometric","color":"#cc9900","clickEvent":{"action":"run_command","value":"function lobby:signs/credits/asometric"}}',Text3:'{"text":"Builder","color":"#4d4dff"}'} destroy
