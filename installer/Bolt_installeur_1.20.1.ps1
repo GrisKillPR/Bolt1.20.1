@@ -53,7 +53,7 @@ Set-Location -Path ..
 
 wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/options.txt" -OutFile options.txt
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/servers.dat" -OutFile server.dat
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/servers.dat" -OutFile servers.dat
 
 New-Item -Path .\ -Name "config" -ItemType "directory"
 
