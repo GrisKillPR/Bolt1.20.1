@@ -2,7 +2,7 @@ Get-Process Minecraft | %{ $_.closemainwindow() }
 
 Set-Location -Path $Env:appdata\.Bolt
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/profile.json" -OutFile profile.json
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/profile.json" -OutFile profile.json
 
 wget "https://github.com/rockdaboot/wget2/releases/download/v2.1.0/wget2.exe" -OutFile wget2.exe
 
@@ -99,29 +99,29 @@ wget "https://cdn.modrinth.com/data/vSEH1ERy/versions/gBP1GqtK/threadtweak-fabri
 
 Set-Location -Path ..
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/options.txt" -OutFile options.txt
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/options.txt" -OutFile options.txt
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/servers.dat" -OutFile server.dat
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/servers.dat" -OutFile server.dat
 
 New-Item -Path .\ -Name "config" -ItemType "directory"
 
 Set-Location -Path .\config
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/AxolotlClient.json" -OutFile AxolotlClient.json
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/AxolotlClient.json" -OutFile AxolotlClient.json
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/bobby.conf" -OutFile bobby.conf
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/bobby.conf" -OutFile bobby.conf
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/sodium-extra-options.json" -OutFile sodium-extra-options.json
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/sodium-extra-options.json" -OutFile sodium-extra-options.json
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/sodium-options.json" -OutFile sodium-options.json
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/sodium-options.json" -OutFile sodium-options.json
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/iris.properties" -OutFile iris.properties
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/iris.properties" -OutFile iris.properties
 
 Set-Location -Path $Env:appdata\.minecraft
 
 New-Item -Path .\versions -Name "quilt-loader-0.24.0-1.20.1" -ItemType "directory"
 
-wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/quilt-loader-0.24.0-1.20.1.json" -OutFile .\versions\quilt-loader-0.24.0-1.20.1\quilt-loader-0.24.0-1.20.1.json
+wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/quilt-loader-0.24.0-1.20.1.json" -OutFile .\versions\quilt-loader-0.24.0-1.20.1\quilt-loader-0.24.0-1.20.1.json
 
 $measure = Get-Content .\launcher_profiles.json 
 $lines = ($measure | Where-Object {$_ -ne ""}).Count
