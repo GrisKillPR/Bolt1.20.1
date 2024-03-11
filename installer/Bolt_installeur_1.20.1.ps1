@@ -37,13 +37,13 @@ Set-Content -Path .\profile.json -Value ($1 + $Zulu + $gamedir + $3)
  
 New-Item -Path .\ -Name "mods" -ItemType "directory"
 
-cp .\wget2.exe .\mods
+Copy-Item .\wget2.exe .\mods
 
 Set-Location -Path .\mods
 
 wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePortal/installer/mods.txt" -OutFile mods.txt
 
-wget2.exe -i mods.txt
+.\wget2.exe -i mods.txt
 
 Remove-Item mods.txt
 
