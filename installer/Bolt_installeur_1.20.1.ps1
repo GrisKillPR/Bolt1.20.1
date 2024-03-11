@@ -37,7 +37,7 @@ Set-Content -Path .\profile.json -Value ($1 + $Zulu + $gamedir + $3)
  
 New-Item -Path .\ -Name "mods" -ItemType "directory"
 
-Copy-Item .\wget2.exe .\mods
+cp .\wget2.exe .\mods
 
 Set-Location -Path .\mods
 
