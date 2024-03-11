@@ -45,9 +45,9 @@ wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt_ImmersivePort
 
 wget2.exe -i mods.txt
 
-rm mods.txt
+Remove-Item mods.txt
 
-rm wget2.exe
+Remove-Item wget2.exe
 
 Set-Location -Path ..
 
