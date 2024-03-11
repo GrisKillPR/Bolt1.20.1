@@ -6,7 +6,9 @@ Set-Location -Path $Env:appdata\.Bolt
 
 wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/profile.json" -OutFile profile.json
 
-wget "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-win_x64.zip" -OutFile Zulu.zip
+wget "https://github.com/rockdaboot/wget2/releases/download/v2.1.0/wget2.exe" -OutFile wget2.exe
+
+.\wget2.exe "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-win_x64.zip"
 
 Expand-Archive -Path .\Zulu.zip -DestinationPath .\
 
