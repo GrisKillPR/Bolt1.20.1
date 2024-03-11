@@ -1,7 +1,5 @@
 Get-Process Minecraft | %{ $_.closemainwindow() }
 
-New-Item -Path $Env:appdata -Name ".Bolt" -ItemType "directory"
-
 Set-Location -Path $Env:appdata\.Bolt
 
 wget "https://raw.githubusercontent.com/GrisKillPR/Bolt1.20.1/Bolt%26ImmersivePortal/installer/profile.json" -OutFile profile.json
