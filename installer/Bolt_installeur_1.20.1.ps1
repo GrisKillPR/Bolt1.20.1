@@ -10,7 +10,7 @@ wget "https://github.com/rockdaboot/wget2/releases/download/v2.1.0/wget2.exe" -O
 
 .\wget2.exe "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-win_x64.zip"
 
-Expand-Archive -Path .\Zulu.zip -DestinationPath .\
+Expand-Archive -Path .\zulu17.48.15-ca-jdk17.0.10-win_x64.zip -DestinationPath .\
 
 $Zulu = Write-Output $Env:appdata\.Bolt\zulu17.48.15-ca-jdk17.0.10-win_x64\bin\javaw.exe
 
