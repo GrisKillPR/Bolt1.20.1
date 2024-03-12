@@ -36,3 +36,9 @@ https://archive.crowdford.com/maps/bolt/
 > Commands update | gris_kill
 
 > Minor help | Luxion48, Théophile Lebrat
+
+● 1.20.1 builds
+
+> Minor help | Katzz, Théophile Lebrat
+
+> Minor help | gris_kill
