@@ -1,0 +1,1 @@
+execute if entity @r run function main:main
