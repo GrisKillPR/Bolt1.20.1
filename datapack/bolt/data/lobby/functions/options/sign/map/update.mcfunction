@@ -1,6 +1,8 @@
 #called to update the map cycle sign
 # lobby:options/sign/map/update | called by lobby:options/map/next|previous
 
+execute at @e[type=area_effect_cloud,tag=marker,tag=option,tag=map_sign] run setblock ~ ~ ~ air
+
 execute if score map cm_main matches -1 at @e[type=area_effect_cloud,tag=marker,tag=option,tag=map_sign] run setblock ~ ~ ~ oak_wall_sign[facing=west]{front_text: {messages: ['{"bold":true,"color":"gold","text":"Currently Selected"}', '{"bold":true,"color":"gold","text":"Map"}', '{"text":"Random","color":"aqua"}', '{"clickEvent":{"action":"run_command","value":"function lobby:signs/help/maps/check"},"color":"black","text":"[Click to cycle]"}']}} destroy
 #setblock ~ ~ ~ oak_wall_sign[facing=west]{front_text: {messages: ['{"bold":true,"color":"gold","text":"Currently Selected"}', '{"bold":true,"text":"Map"}', '{"text":"Random","color":"aqua"}', '{"clickEvent":{"action":"run_command","value":"function lobby:signs/help/maps/check"},"color":"black","text":"[Click to cycle]"}']}} destroy
 
