@@ -1,5 +1,5 @@
 #Main loop for the game, will run all the phases functions
-# main:main | called from minecraft:tick
+# main:main | called from main:premain
 
 ## --- No phase ---
 effect give @a[tag=!frozen,scores={cm_hunger=..19}] saturation 1 0 true

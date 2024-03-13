@@ -1,5 +1,5 @@
 # Load function, called on every reload to add scoreboard and set things up
-# main:load | called by minecraft:load
+# main:load | called by main:preload
 
 ### --- Scoreboards --- ###
 # FFA
