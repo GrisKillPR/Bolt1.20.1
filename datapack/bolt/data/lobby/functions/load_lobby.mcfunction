@@ -10,6 +10,12 @@ function lobby:load/area_effect_clouds
 #summon stands
 function lobby:load/armour_stands
 
+#summon texts
+function lobby:load/texts
+
+#blocks updates
+function lobby:load/blocks_updates
+
 #sumon items
 function lobby:load/items
 
@@ -27,5 +33,3 @@ function lobby:options/option/map/update_structure
 
 #reset start
 execute at @e[type=armor_stand,tag=sign,tag=start] run setblock ~ ~ ~ stone_button[facing=east,powered=false,face=floor]
-
-
