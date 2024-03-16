@@ -13,12 +13,13 @@ execute if score map cm_main matches 5 unless score gameMode cm_main matches 2 r
 execute if score map cm_main matches 0 if score gameMode cm_main matches 2 run tp @a 781 24 -36
 execute if score map cm_main matches 1 if score gameMode cm_main matches 2 run tp @a 968 31 -32
 execute if score map cm_main matches 2 if score gameMode cm_main matches 2 run tp @a 661 35 -54
+execute if score map cm_main matches 3 if score gameMode cm_main matches 2 run tp @a 1800.5 26.0 -127.5
 
 #map ids
 #0 mesa, fuji
 #1 ice, tomb
 #2 warehouse, neon
-#3 cavernns, Nether
+#3 cavernns, crypt
 #4 space
 #5 Nation
 #6 

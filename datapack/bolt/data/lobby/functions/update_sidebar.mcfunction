@@ -24,6 +24,7 @@ execute if score map cm_main matches 5 unless score gameMode cm_main matches 2 r
 execute if score map cm_main matches 0 if score gameMode cm_main matches 2 run scoreboard players set §6Fuji lb_display 0
 execute if score map cm_main matches 1 if score gameMode cm_main matches 2 run scoreboard players set §6Tomb lb_display 0
 execute if score map cm_main matches 2 if score gameMode cm_main matches 2 run scoreboard players set §6Neon lb_display 0
+execute if score map cm_main matches 3 if score gameMode cm_main matches 2 run scoreboard players set §6Crypt lb_display 0
 #execute if score map cm_main matches 3 if score gameMode cm_main matches 2 run scoreboard players set §6Neather lb_display 0
 
 execute if score map cm_main matches -1 run scoreboard players set §6Random lb_display 0

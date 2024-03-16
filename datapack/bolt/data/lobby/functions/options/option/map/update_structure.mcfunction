@@ -13,7 +13,7 @@ setblock 20 45 -3 redstone_block
 #0 mesa, fuji
 #1 ice, tomb
 #2 warehouse, neon
-#3 caverns, Nether
+#3 caverns, crypt
 #4 space
 #5 Nation
 #6 
