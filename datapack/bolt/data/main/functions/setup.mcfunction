@@ -17,8 +17,8 @@ bossbar set gm:red visible false
 bossbar set gm:blue visible false
 bossbar set ffa:leader visible false
 
-data merge storage lobby:map_minis {Saved:{Team:["map:mini/mesa","map:mini/ice","map:mini/warehouse","map:mini/caverns","map:mini/space","map:mini/nation"],FFA:["map:mini/fuji","map:mini/tomb","map:mini/neon"]}}
-data merge storage lobby:map_names {Saved:{Team:["Mesa","Ice","Warehouse","Caverns","Space","Nation"],FFA:["Fuji","Tomb","Neon"]}}
+data merge storage lobby:map_minis {Saved:{Team:["map:mini/mesa","map:mini/ice","map:mini/warehouse","map:mini/caverns","map:mini/space","map:mini/nation"],FFA:["map:mini/fuji","map:mini/tomb","map:mini/neon","map:mini/crypt"]}}
+data merge storage lobby:map_names {Saved:{Team:["Mesa","Ice","Warehouse","Caverns","Space","Nation"],FFA:["Fuji","Tomb","Neon","Crypt"]}}
 
 data modify storage lobby:map_minis FFA set from storage lobby:map_minis Saved.FFA
 data modify storage lobby:map_names FFA set from storage lobby:map_names Saved.FFA
