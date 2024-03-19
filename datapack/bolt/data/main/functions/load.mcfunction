@@ -195,7 +195,7 @@ scoreboard players add map cm_main 0
 scoreboard players add gameMode cm_main 0
 
 scoreboard players set teamMapCount cm_main 6
-scoreboard players set ffaMapCount cm_main 3
+scoreboard players set ffaMapCount cm_main 4
 
 scoreboard players add $players gm_id 0
 scoreboard players add $arrows kh_arrowId 0

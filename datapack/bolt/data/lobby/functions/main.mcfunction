@@ -27,7 +27,7 @@ execute positioned -11.8 47 2 run tp @a[distance=..1] -15 56 67
 execute positioned -12.65 56.00 67.51 run tp @a[distance=..1] -9 46 2
 
 # Start button
-execute at @e[type=minecraft:armor_stand,tag=start,tag=sign] if block ~ ~ ~ stone_button[powered=true] run function lobby:start_game
+execute at @e[type=minecraft:text_display,tag=start,tag=sign] if block ~ ~ ~ stone_button[powered=true] run function lobby:start_game
 
 #parkour
 function lobby:parkour/main

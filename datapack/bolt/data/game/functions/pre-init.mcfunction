@@ -2,7 +2,7 @@
 scoreboard players set gameState cm_main 1
 scoreboard players reset temp cm_miscellaneous
 scoreboard objectives setdisplay sidebar
-execute at @e[type=minecraft:armor_stand,tag=start,tag=sign] run setblock ~ ~ ~ air
+execute at @e[type=minecraft:text_display,tag=start,tag=sign] run setblock ~ ~ ~ air
 
 #Handle options
 execute if score map cm_main matches -1 run function lobby:options/option/map/random
