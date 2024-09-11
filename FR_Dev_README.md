@@ -11,3 +11,5 @@ https://www.youtube.com/watch?v=1B0b7yk7Ups
 https://www.youtube.com/watch?v=8L20ndeRiJk
 
 https://www.youtube.com/watch?v=ObT6lEVK-3g
+
+abbandon projet suite a un bug d'immersive portal qui n'a pas été patch et qui ne le seras surement jamais
